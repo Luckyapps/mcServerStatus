@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<link rel="manifest" href="manifest.json">-->
+        <link rel="icon" href="images/icons/icon-512x512.png" type="image/png">
+        <link rel="apple-touch-icon" href="images/icons/icon-192x192.png"> <!-- Apple App icon -->
+        <html lang="de-de">
+        <meta name="theme-color" content="black"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="">
+        <title>MC Server</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <head>
+            <header>
+                <h1>Willkommen bei der Minecraft Server Status abfrage</h1>
+            </header>
+            <section class="mainSection">
+                <div id="statusList">
+                    <div class="listItem" id="popcorn">
+                        <div class="online"></div>
+                        <div class="listHead">
+                            <img class="icon" src="">
+                            <h2 class="hostname">Popcornserver</h2>
+                        </div>
+                        <div class="shortInfo">
+                            <div class="version"></div>
+                            <div class="ip"></div>
+                            <div class="port"></div>
+                        </div>
+                        <span class="motd"></span>
+                        <div class="players">
+                            <div class="maxPlayers hidden"></div>
+                            <div class="onlinePlaxers hidden"></div>
+                            <div class="playerList">
+                                <h3 class="playerListeHead"></h3>
+                                <ul></ul>
+                            </div>
+                        </div>
+                        <hr style="width: 100%;">
+                        <div class="timestamp"></div>
+                    </div>
+                </div>
+                <nav>
+                    <h3>Serverliste</h3>
+                    <a href="#popcorn">Popcornserver</a>
+                </nav>
+            </section>
+        </head>
+    </body>
+</html>
